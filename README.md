@@ -10,3 +10,8 @@
 * Mathematics
 * Scripting
 
+**First Program of Python**
+
+```python
+print("Hello Students👋 Welcome to Python Bootcamp")
+```
