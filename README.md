@@ -15,3 +15,14 @@
 ```python
 print("Hello Students👋 Welcome to Python Bootcamp")
 ```
+
+## New line Character 
+
+👉New line character is denoted by `\n`.
+
+**Example :**
+
+```python
+print("Hello Students👋 \n Welcome to Python Bootcamp")
+```
+
