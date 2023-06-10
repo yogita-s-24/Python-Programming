@@ -26,3 +26,18 @@ print("Hello Students👋 Welcome to Python Bootcamp")
 print("Hello Students👋 \n Welcome to Python Bootcamp")
 ```
 
+## Variables
+
+Variables are used to stored the data.
+
+**Example :**
+
+```python
+age = 19
+name = "Sona"
+weight = 34
+print(age)
+print(name)
+print(weight)
+```
+
