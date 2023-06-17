@@ -1,1 +1,1 @@
-# list
+# list are store value in [] brakets
