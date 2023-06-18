@@ -49,7 +49,7 @@ print(pystudent.index("Yogii"))
 # Example 5:
 
 pystudent = ("Saurabh", "Harshu","Harshu", "Yogii", "Yogii")
-print(pystudent.index("Yogii"))
+print(pystudent.count("Yogii"))
 
 #Output : 2
 
