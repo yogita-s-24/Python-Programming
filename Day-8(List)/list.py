@@ -23,3 +23,13 @@ print(students[4:])
 students = ['Aachal','Aarav','Avinash','Dolly','Deva']
 print(students[-2])
 #Output : Dolly  (It is delete from last)
+
+#Properties Of List
+#1. Ordered - Lists are in ordered form, which means that the items have a defined order and that order will not change.
+
+#Example 1
+students = ['Aachal','Aarav','Avinash','Dolly','Deva']
+print(students)
+#Output :['Aachal', 'Aarav', 'Avinash', 'Dolly', 'Deva']
+
+
