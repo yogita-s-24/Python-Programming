@@ -62,3 +62,5 @@ print("After update :",courses)
 #output: 
 # Befor update: ['c', 'c++', 'python', 'javascript', 'icp']
 #  After update : ['c', 'c++ programming', 'python', 'javascript', 'icp']
+
+# ii.Insert - The insert() method insert an element at the specified position in the list.
