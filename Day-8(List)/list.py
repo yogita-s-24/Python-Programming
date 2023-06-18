@@ -109,3 +109,15 @@ print("After pop",fruits)
 # Output :
 # Before pop ['appple', 'banana', 'orange', 'cherry']
 # After pop ['appple', 'banana', 'cherry']
+
+
+# Delete - The delete() method delete elements from the specified index.
+
+# Example :
+fruits = ["apple","banana","cherry","mango"]
+print("Before delete : ",fruits)
+del fruits[1]
+print("After delete :",fruits)
+# Output :
+# Before delete : ['apple', 'banana', 'cherry', 'mango']
+# After delete : ['apple', 'cherry', 'mango']
