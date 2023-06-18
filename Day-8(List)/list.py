@@ -41,4 +41,12 @@ print(fruits)
 #Output:['apple', 'banana', 'cherry', 'apple', 'banana']
 
 
+#3. List can contain different datatype - You can add differnent datatypes in single list.
+
+#Example 1
+randomData = ["abc",10,True,50.50,"Hii"]
+print(randomData)
+#Output: ['abc', 10, True, 50.5, 'Hii']
+
+
 
