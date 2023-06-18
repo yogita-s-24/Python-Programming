@@ -33,3 +33,7 @@ print(students)
 #Output :['Aachal', 'Aarav', 'Avinash', 'Dolly', 'Deva']
 
 
+#2. Allow duplicates-Lists can have items with the same value. Lists can contain duplicate values.
+#Example 1
+fruits =['apple','banana','cherry','apple','banana']
+print(fruits)
