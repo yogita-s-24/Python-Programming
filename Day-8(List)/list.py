@@ -85,3 +85,15 @@ print("After append :",courses)
 # Output :
 # Before append : ['c', 'c++', 'python', 'java', 'icp']
 # After append : ['c', 'c++', 'python', 'java', 'icp', 'Android Dev']
+
+
+# Remove - The remove() method removes the specified item in the lists.
+
+# Example :
+fruits = ['apple','banana','orange','cherry']
+print("Before remove",fruits)
+fruits.remove('banana')
+print("After remove",fruits)
+# Output :
+# Before remove ['apple', 'banana', 'orange', 'cherry']
+# After remove ['apple', 'orange', 'cherry']
