@@ -97,3 +97,15 @@ print("After remove",fruits)
 # Output :
 # Before remove ['apple', 'banana', 'orange', 'cherry']
 # After remove ['apple', 'orange', 'cherry']
+
+
+# Pop - The pop() method remove the element. It takes a single argument (index).
+
+# Example :
+fruits = ['appple','banana','orange','cherry']
+print("Before pop",fruits)
+fruits.pop(2)
+print("After pop",fruits)
+# Output :
+# Before pop ['appple', 'banana', 'orange', 'cherry']
+# After pop ['appple', 'banana', 'cherry']
