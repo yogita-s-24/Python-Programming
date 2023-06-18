@@ -73,3 +73,15 @@ print("After insert :",courses)
 # Output :
 # Before insert: ['c', 'c++', 'python', 'java', 'icp']
 # After insert : ['c', 'c++', 'python', 'java', 'Android Dev', 'icp']
+
+
+# iii.Append - The append() method adds an element to the end of the list.
+
+# Example :
+courses = ["c","c++","python","java","icp"]
+print("Before append :",courses)
+courses.append("Android Dev")
+print("After append :",courses)
+# Output :
+# Before append : ['c', 'c++', 'python', 'java', 'icp']
+# After append : ['c', 'c++', 'python', 'java', 'icp', 'Android Dev']
