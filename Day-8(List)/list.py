@@ -53,8 +53,7 @@ print(randomData)
 
 # i. Update - Update (change) a list element at the specified index.
 
-#Example 1
-
+#Example 
 courses = ["c","c++","python","javascript","icp"]
 print("Befor update: ",courses)
 courses[1] = "c++ programming"
@@ -63,4 +62,14 @@ print("After update :",courses)
 # Befor update: ['c', 'c++', 'python', 'javascript', 'icp']
 #  After update : ['c', 'c++ programming', 'python', 'javascript', 'icp']
 
+
 # ii.Insert - The insert() method insert an element at the specified position in the list.
+
+#Example 
+courses = ["c","c++","python","java","icp"]
+print("before insert:", courses)
+courses.insert(4,"Android Dev")
+print("After insert :",courses)
+# Output :
+# Before insert: ['c', 'c++', 'python', 'java', 'icp']
+# After insert : ['c', 'c++', 'python', 'java', 'Android Dev', 'icp']
