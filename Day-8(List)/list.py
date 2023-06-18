@@ -135,3 +135,17 @@ print("After clear : ",fruits)
 # After clear : []
 
 
+# Sort
+# Ascending Order 
+
+alphabets = ['A','Z','C','V','P','R']
+alphabets.sort()
+print(alphabets)
+#Output : ['A', 'C', 'P', 'R', 'V', 'Z']
+
+# Descending Order
+
+alphabets = ['A','Z','C','V','P','R']
+alphabets.sort(reverse=True)
+print(alphabets)
+#Output : ['Z', 'V', 'R', 'P', 'C', 'A']
