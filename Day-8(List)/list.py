@@ -121,3 +121,17 @@ print("After delete :",fruits)
 # Output :
 # Before delete : ['apple', 'banana', 'cherry', 'mango']
 # After delete : ['apple', 'cherry', 'mango']
+
+
+#Clear - The clear() method removes all the elements from the list.
+
+# Example :
+fruits = ["apple","banana","cherry","mango"]
+print("Before clear :",fruits)
+fruits.clear()
+print("After clear : ",fruits)
+# Output :
+# Before clear : ['apple', 'banana', 'cherry', 'mango']
+# After clear : []
+
+
