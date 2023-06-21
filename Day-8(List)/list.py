@@ -28,7 +28,7 @@ print(students[-2])
 #1. Ordered - Lists are in ordered form, which means that the items have a defined order and that order will not change.
 
 #Example 1
-students = ['Aachal','Aarav','Avinash','Dolly','Deva']
+students = ['Harshada','Yogita','Saurabh','Dolly','Deva']
 print(students)
 #Output :['Aachal', 'Aarav', 'Avinash', 'Dolly', 'Deva']
 
@@ -54,7 +54,7 @@ print(randomData)
 # i. Update - Update (change) a list element at the specified index.
 
 #Example 
-courses = ["c","c++","python","javascript","icp"]
+courses = ["c","c++","python","js","icp"]
 print("Befor update: ",courses)
 courses[1] = "c++ programming"
 print("After update :",courses)
@@ -136,14 +136,14 @@ print("After clear : ",fruits)
 
 
 # Sort
-# Ascending Order 
-
 alphabets = ['A','Z','C','V','P','R']
+# Ascending Order 
 alphabets.sort()
 print(alphabets)
-#Output : ['A', 'C', 'P', 'R', 'V', 'Z']
-
 # Descending Order
+alphabets.sort(reverse=True)
+print(alphabets)
+#Output : ['A', 'C', 'P', 'R', 'V', 'Z']
 
 alphabets = ['A','Z','C','V','P','R']
 alphabets.sort(reverse=True)
