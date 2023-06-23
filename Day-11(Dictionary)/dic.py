@@ -81,3 +81,66 @@ courses ={
 print(courses.values())
 
 #Output : dict_values(['499', '499', '499', '999', '999', '10,000'])
+
+
+#Adding new Key
+
+#Example : 7
+
+courses ={
+    "C" :"499",
+    "C++" :"499",
+    "Python" :"499",
+    "DSA" :"999",
+    "ICP" :"999",
+    "ICGP" :"10,000"
+}
+print(courses)
+courses["Java"] = "499"
+print(courses)
+
+#Output : 
+# {'C': '499', 'C++': '499', 'Python': '499', 'DSA': '999', 'ICP': '999', 'ICGP': '10,000'}
+# {'C': '499', 'C++': '499', 'Python': '499', 'DSA': '999', 'ICP': '999', 'ICGP': '10,000', 'Java': '499'}
+
+
+# for Update value
+
+#Example : 8
+
+courses ={
+    "C" :"499",
+    "C++" :"499",
+    "Python" :"499",
+    "DSA" :"999",
+    "ICP" :"999",
+    "ICGP" :"10,000"
+}
+print(courses)
+courses["Python"] = "999"
+print(courses)
+
+#Output : 
+# {'C': '499', 'C++': '499', 'Python': '499', 'DSA': '999', 'ICP': '999', 'ICGP': '10,000'}
+# {'C': '499', 'C++': '499', 'Python': '999', 'DSA': '999', 'ICP': '999', 'ICGP': '10,000'}
+
+
+# for clear element
+
+#Example : 9
+
+courses ={
+    "C" :"499",
+    "C++" :"499",
+    "Python" :"499",
+    "DSA" :"999",
+    "ICP" :"999",
+    "ICGP" :"10,000",
+    'Java': '499'
+}
+print(courses)
+courses.clear()
+print(courses)
+
+# Output : {'C': '499', 'C++': '499', 'Python': '499', 'DSA': '999', 'ICP': '999', 'ICGP': '10,000', 'Java': '499'}
+#{}
