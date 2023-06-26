@@ -57,3 +57,29 @@ b = 13
 result = a>b
 print(result)
 #Output: True
+
+
+# 4. less than or equal to (<=)
+#Example 1
+a = 20
+b = 20
+result = a<=b
+print(result)
+#Output: True
+
+#Example 2
+a = 10
+b = 20
+result = a<=b
+print(result)
+#Output: True
+
+#Example 3
+a = 30
+b = 20
+result = a<=b
+print(result)
+#Output: False
+
+
+
