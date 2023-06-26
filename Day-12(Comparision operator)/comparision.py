@@ -12,3 +12,31 @@ a = 10
 b = 10
 result = a==b
 print(result)
+#Output : True
+
+#Example 2
+a = 10
+b = 1
+result = a==b
+print(result)
+#output: False
+
+
+# 2. less than (<)
+
+#Example 1
+
+a = 10
+b = 11
+result = a<b
+print(result)
+#Output: True
+
+#Example 2
+
+a = 15
+b = 11
+result = a<b
+print(result)
+#Output: False
+
