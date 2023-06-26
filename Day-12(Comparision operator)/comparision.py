@@ -97,3 +97,18 @@ result = a>=b
 print(result)
 #Output:False
 
+
+# not equal to (!=)
+#Example 1
+a = 30
+b = 30
+result = a!=b
+print(result)
+#Output: False
+
+#Example 2
+a = 20
+b = 30
+result = a!=b
+print(result)
+#Output: True
