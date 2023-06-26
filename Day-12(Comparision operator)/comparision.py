@@ -40,3 +40,20 @@ result = a<b
 print(result)
 #Output: False
 
+
+# 3. greater than(>)
+#Example 1
+
+a = 10
+b = 13
+result = a>b
+print(result)
+#Output: False
+
+#Example 2
+
+a = 15
+b = 13
+result = a>b
+print(result)
+#Output: True
