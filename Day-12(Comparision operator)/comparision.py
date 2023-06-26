@@ -82,4 +82,18 @@ print(result)
 #Output: False
 
 
+# 5. greater than or equal to (>=)
+#Example 1
+a = 30
+b = 30
+result = a>=b
+print(result)
+#Output: True
+
+#Example 2
+a = 50
+b = 60
+result = a>=b
+print(result)
+#Output:False
 
