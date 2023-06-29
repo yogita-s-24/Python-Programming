@@ -35,3 +35,23 @@ else:
 #Output: 
 # Enter your name = 5
 # You select option 5
+
+
+
+alphabets = input("Enter your name = ")
+if alphabets=='A':
+  print("You select option A")
+elif alphabets=='B':
+   print("You select option B")
+elif alphabets=='C':
+   print("You select option C")
+elif alphabets=='D':
+   print("You select option D")
+elif alphabets=='E':
+   print("You select option E")
+else:
+   print("You select wrong option")
+
+#Output : 
+# Enter your name = D
+# You select option D
