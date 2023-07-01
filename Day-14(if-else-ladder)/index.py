@@ -37,6 +37,7 @@ else:
 # You select option 5
 
 
+#Example : 
 
 alphabets = input("Enter your name = ")
 if alphabets=='A':
