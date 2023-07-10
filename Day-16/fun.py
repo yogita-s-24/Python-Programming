@@ -59,4 +59,21 @@ print(ans)
 # Enter time : 120
 # 14400.0
 
+#4. Arguments And Return
+
+def cal_si(p, r, t):
+  si = p*r*t/100
+  return si
+
+Amount = int(input("Enter Amount : "))
+Rate = int(input("Enter Rate : "))
+Time = int(input("Enter Time : "))
+ans = cal_si(Amount,Rate, Time)
+print(ans)
+
+# Output :
+# Enter Amount : 100
+# Enter Rate : 200
+# Enter Time : 90
+# 18000.0
 
