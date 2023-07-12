@@ -71,7 +71,7 @@ Time = int(input("Enter Time : "))
 ans = cal_si(Amount,Rate, Time)
 print(ans)
 
-# Output :
+# Output of Program:
 # Enter Amount : 100
 # Enter Rate : 200
 # Enter Time : 90
