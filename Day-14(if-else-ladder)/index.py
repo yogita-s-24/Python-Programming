@@ -56,3 +56,32 @@ else:
 #Output : 
 # Enter your name = D
 # You select option D
+
+
+for i in range(5):
+  print("Hello World !!")
+  
+# Output :
+# Hello World !!
+# Hello World !!
+# Hello World !!
+# Hello World !!
+# Hello World !!
+
+
+while test_expression:
+    Body of while
+    
+    while expression:
+    statement(s)
+    
+num = int(input("Enter Any Number :"))
+count = 0
+while num>0:
+  num = num // 10
+  count = count + 1
+print("Total Digits: ",count)
+
+# Output: 
+# Enter Any Number :63465346
+# Total Digits: 8

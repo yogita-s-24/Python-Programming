@@ -1,3 +1,1 @@
-print("Harshda is a very intelligent girl...")
-print("Harshda is a very intelligent girl...")
-print("Harshda is a very intelligent girl...")
+for var_name in range(10)
